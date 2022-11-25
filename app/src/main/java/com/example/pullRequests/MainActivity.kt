@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
         views = ActivityMainBinding.inflate(layoutInflater)
         setContentView(views.root)
 
-        views.root.background = ColorDrawable(ContextCompat.getColor(this, R.color.purple_200))
+        views.root.background = ColorDrawable(ContextCompat.getColor(this, R.color.white))
     }
 }
