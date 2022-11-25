@@ -16,5 +16,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(views.root)
 
         views.root.background = ColorDrawable(ContextCompat.getColor(this, R.color.white))
+
+        views.btnAdd.setOnClickListener {
+            views.textView.text = ((views.textView.text.toString().toInt().plus(1))).toString()
+        }
+
     }
 }
